@@ -1,0 +1,21 @@
+.dashboard-page {
+    background-color: #63a541;
+    color: #ffffff;
+}
+
+.logo {
+  margin: 20;
+}
+
+.button {
+    border-color: #ffffff;
+    color: #ffffff;
+    margin: 5;
+    padding: 7 2;
+    border-width: 1;
+    border-style: solid;
+    border-radius: 5;
+    text-align: center;
+    font-size: 18;
+    line-height: 42;
+}

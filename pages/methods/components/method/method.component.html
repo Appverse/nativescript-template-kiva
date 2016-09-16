@@ -1,0 +1,7 @@
+<StackLayout class="card" (tap)="fetchMethod()">
+  <DockLayout>
+    <Label dock="left" class="card-label" [text]="method.uri"></Label>
+    <Label dock="right" class="card-lock" text="🔐" *ngIf="method.oauth"></Label>
+  </DockLayout>
+  <Label class="card-summary" [text]="method.documentation?.en?.summary" textWrap="true"></Label>
+</StackLayout>

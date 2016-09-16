@@ -1,0 +1,8 @@
+<StackLayout class="methods-page">
+  <Progress [value]="progressValue" margin="20" *ngIf="!methods"></Progress>
+  <ListView [items]="methods" *ngIf="methods">
+    <template let-method="item">
+        <kv-method [method]="method"></kv-method>
+    </template>
+  </ListView>
+</StackLayout>
