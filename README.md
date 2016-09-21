@@ -16,7 +16,7 @@ tns create <my-kiva-app> --template https://github.com/Appverse/nativescript-tem
 - Launch the setup script (it will just move some files around)
 ```
 cd <my-kiva-app>
-app/setup.sh
+node app/setup.js
 ```
 - Run ```tns emulate ios``` and/or ```tns emulate android``` to make sure everything is in place and working
 - Start hacking!
